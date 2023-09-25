@@ -84,12 +84,12 @@ int main() {
                 break;
 
             default:
-                cout << "You chose a number that is not in the list. Try again with a number in the list." << endl;
+                cout << "You chose a number that is not in the list. Try again with a number in the list. Press 'Y' in the next question. " << endl;
         }
 
         // Ask the user if they want to calculate another shape
         char again;
-        cout << "Do you want to calculate the area of another shape? (Y/N): ";
+        cout << "Do you want to calculate the area again? (Y/N): ";
         cin >> again;
 
         if (again != 'Y' && again != 'y') {
